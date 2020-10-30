@@ -1,0 +1,116 @@
+h1,
+h2,
+button {
+  text-align: center;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #411f1f;
+  background: linear-gradient(to right, #86c4ba, #c1dba6);
+  padding: 20px 10px;
+  font-size: 50px;
+  border-radius: 20px;
+  margin: 0 auto 20px;
+}
+
+p,
+li {
+  font-size: 20px;
+  font-family: "Libre Baskerville", open sans-serif;
+  font-weight: 500;
+  color: #381d1d;
+  background-color: #cedebd;
+  border-radius: 20px;
+  padding: 20px;
+  line-height: 150%;
+}
+
+a {
+  color: #381d1d;
+  font-family: "Libre Baskerville", open sans-serif;
+  font-style: normal;
+  padding: 30px 0px;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+  font-weight: 500;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  margin: 0px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto 20px;
+  transition: all 200ms ease-in-out;
+}
+li:hover {
+  background: #c1dba6;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 20px;
+  border: 2px solid #86c4ba;
+  border-radius: 40px;
+  transition: all 200ms ease-in-out;
+  font-size: 25px;
+  box-shadow: 5px 7px 5px #411f1f;
+}
+button:hover {
+  background: #f3f3f3;
+  cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  background: #f3f3f3;
+  border-radius: 10px;
+}
+
+.first-part,
+.second-part {
+  margin: 0px;
+  padding: 20px 50px 5px;
+  transition: all 200ms ease-in-out;
+}
+
+.book-shelves {
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  max-width: 100%;
+}
+
+.paragraph-highlight {
+  background-color: #86c4ba;
+}
+
+.book-cover {
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+  border: 5px;
+  max-width: 80%;
+}
+
+.footer {
+  font-family: monospace;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  margin: 30px 0px 15px;
+}
